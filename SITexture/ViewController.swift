@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         ["title": "ASCollectionViewVC", "VC": "ASCollectionViewVC"],
         ["title": "TTViewController", "VC": "TTViewController"],
         ["title": "LayoutTransitionVC", "VC": "LayoutTransitionVC"],
-        
+        ["title": "VideoFeedNodeController", "VC": "VideoFeedNodeController"],
         
     ]
 
@@ -58,6 +58,9 @@ extension ViewController: UITableViewDelegate {
             self.navigationController?.pushViewController(vc, animated: true)
         case "LayoutTransitionVC":
             let vc = LayoutTransitionVC()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case "VideoFeedNodeController":
+            let vc = VideoFeedNodeController()
             self.navigationController?.pushViewController(vc, animated: true)
         default:
             break
