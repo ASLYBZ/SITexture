@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1697EF79FF7EADFA15E1561E /* libPods-SITexture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D889C0C9681632780DD22D1E /* libPods-SITexture.a */; };
+		B63C2F33296E8791003FD8DF /* SocialAppLayoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C2F32296E8791003FD8DF /* SocialAppLayoutVC.swift */; };
+		B63C2F35296E8E5C003FD8DF /* SocialNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C2F34296E8E5C003FD8DF /* SocialNode.swift */; };
+		B63C2F3A2971069F003FD8DF /* LikesNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C2F392971069F003FD8DF /* LikesNode.swift */; };
+		B63C2F3C29710B45003FD8DF /* CommentsNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C2F3B29710B45003FD8DF /* CommentsNode.swift */; };
 		B64D01062948768B00605DAE /* LTString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D01052948768B00605DAE /* LTString.swift */; };
 		B64D010929496F4200605DAE /* LayoutTransitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D010829496F4200605DAE /* LayoutTransitionVC.swift */; };
 		B64D010B29496F7000605DAE /* TransitionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D010A29496F7000605DAE /* TransitionNode.swift */; };
@@ -39,6 +43,8 @@
 		B6F97403296D4C77007AF7B7 /* ico-mute.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F973FD296D4C77007AF7B7 /* ico-mute.png */; };
 		B6F97404296D4C77007AF7B7 /* ico-mute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F973FE296D4C77007AF7B7 /* ico-mute@2x.png */; };
 		B6F97405296D4C77007AF7B7 /* ico-mute@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F973FF296D4C77007AF7B7 /* ico-mute@3x.png */; };
+		B6FCD1B229F91F93000543F2 /* DynamicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCD1B129F91F93000543F2 /* DynamicVC.swift */; };
+		B6FCD1B429F91FD8000543F2 /* DynamicFlexboxNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FCD1B329F91FD8000543F2 /* DynamicFlexboxNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,10 @@
 
 /* Begin PBXFileReference section */
 		2D4ECFD90FE682B226DF6EED /* Pods-SITexture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITexture.debug.xcconfig"; path = "Target Support Files/Pods-SITexture/Pods-SITexture.debug.xcconfig"; sourceTree = "<group>"; };
+		B63C2F32296E8791003FD8DF /* SocialAppLayoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAppLayoutVC.swift; sourceTree = "<group>"; };
+		B63C2F34296E8E5C003FD8DF /* SocialNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNode.swift; sourceTree = "<group>"; };
+		B63C2F392971069F003FD8DF /* LikesNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesNode.swift; sourceTree = "<group>"; };
+		B63C2F3B29710B45003FD8DF /* CommentsNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsNode.swift; sourceTree = "<group>"; };
 		B64D01052948768B00605DAE /* LTString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTString.swift; sourceTree = "<group>"; };
 		B64D010829496F4200605DAE /* LayoutTransitionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutTransitionVC.swift; sourceTree = "<group>"; };
 		B64D010A29496F7000605DAE /* TransitionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionNode.swift; sourceTree = "<group>"; };
@@ -100,6 +110,8 @@
 		B6F973FD296D4C77007AF7B7 /* ico-mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-mute.png"; sourceTree = "<group>"; };
 		B6F973FE296D4C77007AF7B7 /* ico-mute@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-mute@2x.png"; sourceTree = "<group>"; };
 		B6F973FF296D4C77007AF7B7 /* ico-mute@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-mute@3x.png"; sourceTree = "<group>"; };
+		B6FCD1B129F91F93000543F2 /* DynamicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicVC.swift; sourceTree = "<group>"; };
+		B6FCD1B329F91FD8000543F2 /* DynamicFlexboxNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicFlexboxNode.swift; sourceTree = "<group>"; };
 		D889C0C9681632780DD22D1E /* libPods-SITexture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SITexture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3974EC7DF76143C07E29496 /* Pods-SITexture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SITexture.release.xcconfig"; path = "Target Support Files/Pods-SITexture/Pods-SITexture.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +148,17 @@
 				D889C0C9681632780DD22D1E /* libPods-SITexture.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B63C2F31296E8763003FD8DF /* SocialAppLayout */ = {
+			isa = PBXGroup;
+			children = (
+				B63C2F32296E8791003FD8DF /* SocialAppLayoutVC.swift */,
+				B63C2F34296E8E5C003FD8DF /* SocialNode.swift */,
+				B63C2F392971069F003FD8DF /* LikesNode.swift */,
+				B63C2F3B29710B45003FD8DF /* CommentsNode.swift */,
+			);
+			path = SocialAppLayout;
 			sourceTree = "<group>";
 		};
 		B64D01042948767B00605DAE /* LT */ = {
@@ -198,6 +221,8 @@
 		B6AF14C0293EEE3900E4E78C /* SITexture */ = {
 			isa = PBXGroup;
 			children = (
+				B6FCD1B029F91A57000543F2 /* Dynamic */,
+				B63C2F31296E8763003FD8DF /* SocialAppLayout */,
 				B6F973ED296D08A1007AF7B7 /* Video */,
 				B6AF14C1293EEE3900E4E78C /* AppDelegate.swift */,
 				B6AF14C3293EEE3900E4E78C /* SceneDelegate.swift */,
@@ -264,6 +289,15 @@
 				B6F973FF296D4C77007AF7B7 /* ico-mute@3x.png */,
 			);
 			path = Icons;
+			sourceTree = "<group>";
+		};
+		B6FCD1B029F91A57000543F2 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				B6FCD1B129F91F93000543F2 /* DynamicVC.swift */,
+				B6FCD1B329F91FD8000543F2 /* DynamicFlexboxNode.swift */,
+			);
+			path = Dynamic;
 			sourceTree = "<group>";
 		};
 		E85C737719DD45099EA50143 /* Pods */ = {
@@ -439,25 +473,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FCD1B229F91F93000543F2 /* DynamicVC.swift in Sources */,
 				B69B665329403BA8003196A5 /* TTItemNode.m in Sources */,
 				B6F973F7296D13F5007AF7B7 /* UIImage+Additions.swift in Sources */,
 				B6F973F3296D0F75007AF7B7 /* VideoContentCell.swift in Sources */,
+				B6FCD1B429F91FD8000543F2 /* DynamicFlexboxNode.swift in Sources */,
 				B69B665229403BA8003196A5 /* TTViewController.m in Sources */,
 				B69B665629406037003196A5 /* ItemNode.swift in Sources */,
 				B64D010B29496F7000605DAE /* TransitionNode.swift in Sources */,
 				B6AF14C6293EEE3900E4E78C /* ViewController.swift in Sources */,
 				B69B665029403BA8003196A5 /* TTSupplementaryNode.m in Sources */,
 				B6AF14FA293F648E00E4E78C /* BaseVC.swift in Sources */,
+				B63C2F33296E8791003FD8DF /* SocialAppLayoutVC.swift in Sources */,
 				B69B665129403BA8003196A5 /* PresentingViewController.m in Sources */,
 				B6F973F1296D0D8C007AF7B7 /* VideoModel.swift in Sources */,
 				B64D010929496F4200605DAE /* LayoutTransitionVC.swift in Sources */,
 				B6AF14F2293EF01700E4E78C /* ASAnimatedImageVC.swift in Sources */,
+				B63C2F3C29710B45003FD8DF /* CommentsNode.swift in Sources */,
 				B6AF14F8293F647A00E4E78C /* ASCollectionViewVC.swift in Sources */,
 				B64D01062948768B00605DAE /* LTString.swift in Sources */,
+				B63C2F3A2971069F003FD8DF /* LikesNode.swift in Sources */,
 				B69B665829406046003196A5 /* SupplementaryNode.swift in Sources */,
 				B6F973EF296D08CB007AF7B7 /* VideoFeedNodeController.swift in Sources */,
 				B6AF14C2293EEE3900E4E78C /* AppDelegate.swift in Sources */,
 				B6AF14C4293EEE3900E4E78C /* SceneDelegate.swift in Sources */,
+				B63C2F35296E8E5C003FD8DF /* SocialNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

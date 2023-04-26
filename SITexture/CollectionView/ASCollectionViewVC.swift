@@ -91,8 +91,6 @@ extension ASCollectionViewVC: ASCollectionDataSource {
         let text = self.data[indexPath.section][indexPath.item]
         let cellNodeBlock = { () -> ASCellNode in
             let cellNode = ItemNode.init(string: text)
-//            let cellNode = TTItemNode.init(string: text)
-
             return cellNode
         }
         

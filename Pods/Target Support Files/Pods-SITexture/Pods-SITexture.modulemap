@@ -1,0 +1,6 @@
+module Pods_SITexture {
+  umbrella header "Pods-SITexture-umbrella.h"
+
+  export *
+  module * { export * }
+}

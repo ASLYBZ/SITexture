@@ -26,6 +26,7 @@ PODS:
   - PINRemoteImage/WebP (3.0.3):
     - libwebp
     - PINRemoteImage/Core
+  - SnapKit (5.6.0)
   - Texture (3.1.0):
     - Texture/AssetsLibrary (= 3.1.0)
     - Texture/Core (= 3.1.0)
@@ -49,6 +50,7 @@ PODS:
 
 DEPENDENCIES:
   - PINRemoteImage/WebP
+  - SnapKit
   - Texture
 
 SPEC REPOS:
@@ -57,6 +59,7 @@ SPEC REPOS:
     - PINCache
     - PINOperation
     - PINRemoteImage
+    - SnapKit
     - Texture
 
 SPEC CHECKSUMS:
@@ -64,8 +67,9 @@ SPEC CHECKSUMS:
   PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
   PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
   PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   Texture: 2e8ab2519452515f7f5a520f5a8f7e0a413abfa3
 
-PODFILE CHECKSUM: 5a88edf8c4cfdf9690b6aaef06c480584bd98f49
+PODFILE CHECKSUM: e8c904622c875aa0adec6f39b48b6d52425f2e6e
 
 COCOAPODS: 1.10.1

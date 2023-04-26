@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         ["title": "TTViewController", "VC": "TTViewController"],
         ["title": "LayoutTransitionVC", "VC": "LayoutTransitionVC"],
         ["title": "VideoFeedNodeController", "VC": "VideoFeedNodeController"],
+        ["title": "SocialAppLayoutVC", "VC": "SocialAppLayoutVC"],
+        ["title": "DynamicVC", "VC": "DynamicVC"],
         
     ]
 
@@ -61,6 +63,12 @@ extension ViewController: UITableViewDelegate {
             self.navigationController?.pushViewController(vc, animated: true)
         case "VideoFeedNodeController":
             let vc = VideoFeedNodeController()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case "SocialAppLayoutVC":
+            let vc = SocialAppLayoutVC()
+            self.navigationController?.pushViewController(vc, animated: true)
+        case "DynamicVC":
+            let vc = DynamicVC()
             self.navigationController?.pushViewController(vc, animated: true)
         default:
             break

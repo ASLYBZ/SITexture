@@ -3,5 +3,6 @@ platform :ios, '12.0'
 target 'SITexture' do
 	pod 'Texture'
 	pod 'PINRemoteImage/WebP'
+  pod 'SnapKit'
 end
 

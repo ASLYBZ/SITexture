@@ -63,7 +63,6 @@ class TransitionNode: ASDisplayNode {
         let nextTextNode = self.enabled ? self.textNodeTwo : self.textNodeOne
         nextTextNode.style.flexGrow = 1.0
         nextTextNode.style.flexShrink = 1.0
-        
         let horizontalStackLayout = ASStackLayoutSpec.horizontal()
         horizontalStackLayout.children = [nextTextNode]
         
